@@ -1,0 +1,76 @@
+{
+	"common": {
+		"name": "opensprinkler",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Opensprinkler",
+		"titleLang": {
+			"en": "Opensprinkler",
+			"de": "Opensprinkler",
+			"ru": "Opensprinkler",
+			"pt": "Opensprinkler",
+			"nl": "Opensprinkler",
+			"fr": "Opensprinkler",
+			"it": "Opensprinkler",
+			"es": "Opensprinkler",
+			"pl": "Opensprinkler",
+			"zh-cn": "Opensprinkler"
+		},
+		"desc": {
+			"en": "Adapter for Connecting Opensprinkler",
+			"de": "Adapter for Connecting Opensprinkler",
+			"ru": "Adapter for Connecting Opensprinkler",
+			"pt": "Adapter for Connecting Opensprinkler",
+			"nl": "Adapter for Connecting Opensprinkler",
+			"fr": "Adapter for Connecting Opensprinkler",
+			"it": "Adapter for Connecting Opensprinkler",
+			"es": "Adapter for Connecting Opensprinkler",
+			"pl": "Adapter for Connecting Opensprinkler",
+			"zh-cn": "Adapter for Connecting Opensprinkler"
+		},
+		"authors": [
+			"Lutz Thielemann <Lutz.Thielemann@gmx.net>"
+		],
+		"keywords": [
+			"watering",
+			"garden",
+			"sprinkler"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "opensprinkler.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/magicamun/ioBroker.opensprinkler/master/admin/opensprinkler.png",
+		"readme": "https://github.com/magicamun/ioBroker.opensprinkler/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "garden",
+		"compact": true,
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=1.4.2"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
